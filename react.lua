@@ -75,6 +75,9 @@ local acid_table = { -- node, corroded
 	{"nc_lode:bar_tempered",						"nc_lode:bar_annealed"},
 	{"nc_terrain:water_flowing",				"air"},
 	{"nc_terrain:water_gray_flowing",			"air"},
+	{"wc_coal:lignite",							"wc_coal:lignite_loose"},
+	{"wc_coal:bituminite",						"wc_coal:bituminite_loose"},
+	{"wc_coal:anthracite",						"wc_coal:anthracite_loose"},
 }
 
 for i in ipairs (acid_table) do
