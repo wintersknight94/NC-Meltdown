@@ -9,10 +9,10 @@ local modname = minetest.get_current_modname()
 
 local acidef = {
 	description = "Corrosive",
-	tiles = {"nc_lux_base.png^[opacity:64"},
-	special_tiles = {"nc_lux_base.png^[opacity:64", "nc_lux_base.png^[opacity:64"},
+	tiles = {modname .."_corrosive.png^[opacity:64"},
+	special_tiles = {modname .. "_corrosive.png^[opacity:64", modname .. "_corrosive.png^[opacity:64"},
 	use_texture_alpha = "blend",
-	color = "maroon",
+--	color = "maroon",
 	paramtype = "light",
 	liquid_viscosity = 7,
 	liquid_renewable = false,
