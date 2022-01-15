@@ -87,7 +87,8 @@ for i in ipairs (acid_table) do
 nodecore.register_abm({
 		label = "Corrosion",
 		nodenames = {node},
-		neighbors = {src, flow},
+		neighbors = {"group:corrosive"},
+--		neighbors = {src, flow},
 		neighbors_invert = true,
 		interval = 2,
 		chance = 2,
