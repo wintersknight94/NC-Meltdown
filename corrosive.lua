@@ -29,6 +29,7 @@ local acidef = {
 	groups = {
 		lux_emit = 16,
 		corrosive = 1,
+		caustic_fluid = 1,
 		damage_touch = 9,
 		igniter = 1
 	},
