@@ -8,7 +8,7 @@ nodecore.register_abm({
 		label = "Reactor Meltdown",
 		nodenames = {"nc_lux:cobble8"},
 --		neighbors = {"nc_terrain:lava_source"},
-		interval = 600,
+		interval = 900,
 		chance = 100,
 		action = function(pos)
 			nodecore.set_loud(pos, {name = modname ..":acid_source"})
