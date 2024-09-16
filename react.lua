@@ -89,6 +89,14 @@ local acid_table = { -- node, corroded
 	{"nc_terrain:hard_stone_5",						"nc_terrain:hard_stone_4"},
 	{"nc_terrain:hard_stone_6",						"nc_terrain:hard_stone_5"},
 	{"nc_terrain:hard_stone_7",						"nc_terrain:hard_stone_6"},
+	{"nc_lode:stone",								"nc_terrain:stone"},
+	{"nc_lode:stone_1",								"nc_lode:stone"},
+	{"nc_lode:stone_2",								"nc_lode:stone_1"},
+	{"nc_lode:stone_3",								"nc_lode:stone_2"},
+	{"nc_lode:stone_4",								"nc_lode:stone_3"},
+	{"nc_lode:stone_5",								"nc_lode:stone_4"},
+	{"nc_lode:stone_6",								"nc_lode:stone_5"},
+	{"nc_lode:stone_7",								"nc_lode:stone_6"},
 }
 
 for i in ipairs (acid_table) do
